@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="intro">
+            <h3> Simple, traffic-based pricing</h3>
+            <span>Sign-up for our 30-day trial. No credit card required.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class=" offset-1 offset-sm-2 offset-md-2 offset-lg-2 col-10 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+          <div class="box">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="price-box">
+                        <div class="pricing">
+                            <div class="price-details">
+                                <p class="pageviews"><span class="views">100</span>k  Pageviews</p>
+                                <p><span class="dolar">$</span> <span class="value"> 16</span> /month</p>
+                            </div>
+      
+                            <div class="pricing-bar">
+                                <input id="barra" type="range" min="3" max="100" value="16">
+                            </div>
+                            
+                          </div>
+                          <div class="toggle">
+                            <p>Monthly Billing</p>
+                            <input type=checkbox class="checkbox" id="input-switch"/>
+                            <label class="switch" for="input-switch">
+                              <span class="circle"></span>
+                            </label>
+                            <p>Yearly Billing <span>-25%</span></p>
+                          </div>
+                    </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="details">
+                        <div class="list">
+                          <p><img src="/images/icon-check.svg" alt=""> Unlimited websites</p>
+                          <p><img src="/images/icon-check.svg" alt=""> 100% data ownership</p>        
+                          <p><img src="/images/icon-check.svg" alt=""> Email reports</p>
+                        </div>
+                            
+                        <div class="botao">
+                          <button id="botao">Start my trial</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
